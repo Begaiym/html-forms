@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="html-forms.css">
+</head>
+
+<body>
+    <header>Fitness Reservation Page!! </header>
+    <form action="">
+        <fieldset>
+            <legend>
+                Member Demographics
+            </legend>
+                
+                <label for="name">Name</label>
+                <input type="text"id="name"name="name">
+                <p>Are you a Member?</p>
+                <input type="radio" id="membership1" name="member" checked>
+                <label for="membeship">Member</label>
+                <input type="radio"id="membership2" name="member">
+                <label for="non-member">Non-member</label><br>
+
+                <label for="email">Email</label>
+                <input type="text"id="email"name="email">
+
+        </fieldset>
+        
+    <label for="facility">Facility</label>
+    <select name="facility" id="facility"> 
+        <option value="Badminton">Badminton
+        </option>
+        <option value="Tennis">Tennis</option>
+    </select>
+
+    <p>Select a reservation date and time:</p>
+
+    <input type="datetime-local"><br>
+
+    <input type="checkbox">I agree to the club's reservation policy
+    
+    </form>
+</body>
+</html>
